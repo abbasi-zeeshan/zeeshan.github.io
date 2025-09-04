@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #181a20;
+  color: #dedede;
+  line-height: 1.6;
+}
+header {
+  background: #22232a;
+  padding: 2rem 1rem 1rem;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: #00b4d8;
+}
+.tagline {
+  color: #aaa;
+  font-size: 1.1rem;
+}
+section {
+  padding: 2rem 1rem;
+  max-width: 700px;
+  margin: auto;
+  border-bottom: 1px solid #22232a;
+}
+section:last-child {
+  border-bottom: none;
+}
+h2 {
+  color: #00b4d8;
+  margin-bottom: 1rem;
+}
+ul {
+  padding-left: 1.2rem;
+}
+.resume-btn, .linkedin-btn {
+  display: inline-block;
+  background: #00b4d8;
+  color: #181a20;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0.5rem 0;
+  transition: background 0.2s;
+}
+.resume-btn:hover, .linkedin-btn:hover {
+  background: #0097a7;
+}
+.resume-note {
+  font-size: 0.9rem;
+  color: #aaa;
+}
+footer {
+  background: #22232a;
+  text-align: center;
+  padding: 1.5rem 1rem 1rem;
+  color: #aaa;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  section {
+    padding: 1rem 0.5rem;
+  }
+}
